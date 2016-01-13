@@ -1,0 +1,12 @@
+{
+  "name": "my-components",
+  "version": "0.0.1",
+  "description": "A sample UI component library.",
+  "devDependencies": {
+    "ui-harness": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/ui-harness/server --entry ./src/specs"
+  },
+  "engines": { "node": ">=5.0.0" }
+}
