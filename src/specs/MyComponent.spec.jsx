@@ -10,7 +10,7 @@ describe("MyComponent", function() {
 
   before(() => {
     // Runs when the Suite loads.  Use this to host your component-under-test.
-    this.load( <MyComponent color="red"/> );
+    this.load( <MyComponent /> );
   });
 
   it("reload", () => {
@@ -30,5 +30,6 @@ describe("MyComponent", function() {
     it("red", () => this.props({ color: "red" }));
     it("green", () => this.props({ color: "green" }));
     it("blue", () => this.props({ color: "blue" }));
+    it("orange (error)", () => this.props({ color: "orange" }));
   });
 });
