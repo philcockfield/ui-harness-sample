@@ -7,6 +7,5 @@
   },
   "scripts": {
     "start": "node ./node_modules/ui-harness/start --entry=./src/specs"
-  },
-  "engines": { "node": ">=5.5.0" }
+  }
 }
