@@ -6,6 +6,8 @@
     "ui-harness": "^3.3.0"
   },
   "scripts": {
-    "start": "node ./node_modules/ui-harness/start"
+    "start": "node ./node_modules/ui-harness/start",
+    "size": "node ./node_modules/ui-harness/size",
+    "size:prod": "node ./node_modules/ui-harness/size --prod"
   }
 }
