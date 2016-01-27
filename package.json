@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "A sample UI component library.",
   "devDependencies": {
-    "ui-harness": "^3.0.3"
+    "ui-harness": "^3.2.0"
   },
   "scripts": {
-    "start": "node ./node_modules/ui-harness/start --entry=./src/specs"
+    "start": "node ./node_modules/ui-harness/start"
   }
 }
