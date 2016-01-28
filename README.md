@@ -1,5 +1,5 @@
 # UIHarness Sample
-A sample "getting started" project employing the [UIHarness](http://www.uiharness.com/) to develop React components.
+A "getting started" project employing the [UIHarness](http://www.uiharness.com/) to develop React components.
 
 
 ## Install and Start
