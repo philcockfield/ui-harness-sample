@@ -9,7 +9,8 @@ describe("MyComponent", function() {
   this.header(`## A Simple Component`); // Markdown.
 
   before(() => {
-    // Runs when the Suite loads.  Use this to host your component-under-test.
+    // Runs when the Suite loads.
+    // Use this to load your component-under-test.
     this.load( <MyComponent /> );
   });
 
