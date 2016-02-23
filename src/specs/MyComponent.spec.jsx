@@ -11,12 +11,14 @@ describe("MyComponent", function() {
   before(() => {
     // Runs when the Suite loads.
     // Use this to load your component-under-test.
-    this.load( <MyComponent /> );
+    this.component( <MyComponent /> );
   });
 
   it("reload", () => {
     count += 1;
-    this.load( <MyComponent color="red" text={`My Component ${ count }`} /> );
+    this.component( <MyComponent
+                color="red"
+                text={`My Component ${ count }`} /> );
   });
 
   section("text", () => {
