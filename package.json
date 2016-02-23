@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A sample UI component library.",
   "devDependencies": {
-    "ui-harness": "3.7.0"
+    "ui-harness": "^3.5.4"
   },
   "scripts": {
     "start": "node ./node_modules/ui-harness/start",
