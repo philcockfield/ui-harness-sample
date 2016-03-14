@@ -7,7 +7,6 @@
   },
   "scripts": {
     "start": "node ./node_modules/ui-harness/start",
-    "size": "node ./node_modules/ui-harness/size",
-    "size:prod": "node ./node_modules/ui-harness/size --prod"
+    "build": "node ./node_modules/ui-harness/build"
   }
 }
