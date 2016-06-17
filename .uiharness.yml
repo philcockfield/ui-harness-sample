@@ -5,7 +5,7 @@ build:
   prod: true
   outputFolder: ./.build
   modules:
-    main: ./src/componnets/MyComponent.jsx
+    main: ./src/components/MyComponent.jsx
   vendor:
     - react
     - react-dom
